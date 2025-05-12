@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//Both admin and normal users can access these APIs
 @RestController
 @RequestMapping("/public")
 public class HomeController {
